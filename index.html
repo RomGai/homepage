@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Name | Academic Homepage</title>
+    <meta
+      name="description"
+      content="Academic homepage featuring research interests, publications, projects, and contact information."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="#home">Your Name</a>
+        <nav>
+          <a href="#about">About</a>
+          <a href="#publications">Publications</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="home" class="container">
+      <section class="hero">
+        <p class="eyebrow">Academic Homepage</p>
+        <h1>Your Name</h1>
+        <p class="subtitle">
+          PhD Student / Researcher in [Your Field], focusing on [Topic A], [Topic B], and [Topic C].
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-solid" href="#publications">View Publications</a>
+          <a class="btn btn-outline" href="#contact">Contact</a>
+          <a class="btn btn-outline" href="#" aria-label="Download CV">CV</a>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <h2>About</h2>
+        <p>
+          I am currently a [Position] at [Institution]. My research lies at the intersection of
+          [Area 1] and [Area 2], with particular interest in [Specific Problem]. I build methods
+          that are both theoretically grounded and practically useful.
+        </p>
+        <ul class="keywords">
+          <li>Machine Learning</li>
+          <li>Computer Vision</li>
+          <li>Robustness</li>
+          <li>Representation Learning</li>
+        </ul>
+      </section>
+
+      <section id="publications" class="section">
+        <div class="section-head">
+          <h2>Selected Publications</h2>
+          <p>Figure + title + authors + venue + links. Replace the sample card below with your papers.</p>
+        </div>
+
+        <article class="pub-card">
+          <img
+            class="pub-figure"
+            src="https://placehold.co/640x400/e7e5e4/78716c?text=Paper+Figure"
+            alt="Sample paper figure"
+          />
+          <div class="pub-content">
+            <h3>Sample Paper Title: A Clean and Intuitive Academic Homepage Template</h3>
+            <p class="authors">
+              <strong>Your Name</strong>, Author B, Author C, Author D
+            </p>
+            <p class="venue"><span class="badge">NeurIPS 2026</span></p>
+            <div class="links">
+              <a href="#">PDF</a>
+              <a href="#">Code</a>
+              <a href="#">Project</a>
+              <a href="#">BibTeX</a>
+              <a href="#">DOI</a>
+            </div>
+          </div>
+        </article>
+
+        <details class="extend-guide">
+          <summary>How to add more publications</summary>
+          <ol>
+            <li>Duplicate the <code>&lt;article class="pub-card"&gt;...&lt;/article&gt;</code> block.</li>
+            <li>Replace figure URL, title, author list, and venue badge text.</li>
+            <li>Update link URLs for PDF, code, project page, BibTeX, and DOI.</li>
+            <li>Repeat in reverse chronological order (newest first).</li>
+          </ol>
+        </details>
+      </section>
+
+      <section id="projects" class="section">
+        <h2>Projects</h2>
+        <div class="project-grid">
+          <article>
+            <h3>Project One</h3>
+            <p>One-line description of your project and its contribution.</p>
+          </article>
+          <article>
+            <h3>Project Two</h3>
+            <p>One-line description of your project and its contribution.</p>
+          </article>
+          <article>
+            <h3>Project Three</h3>
+            <p>One-line description of your project and its contribution.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:you@example.com">you@example.com</a></p>
+        <p>
+          Links:
+          <a href="#">Google Scholar</a> ·
+          <a href="#">GitHub</a> ·
+          <a href="#">ORCID</a>
+        </p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© <span id="year"></span> Your Name. Built with a minimal academic style.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
